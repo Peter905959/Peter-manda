@@ -1,6 +1,5 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa"; // Import Instagram icon from react-icons
-import Footer from "../components/Footer";
 const Contact = () => {
   return (
     <div className="contact-container">
