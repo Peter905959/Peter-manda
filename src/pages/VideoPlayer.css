@@ -1,0 +1,25 @@
+.video-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.video-title {
+  color: red;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* For all video types */
+.responsive-video {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  /* border-radius: 12px; */
+}
+
+/* If using iframe inside a div, make the wrapper flexible too */
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+}

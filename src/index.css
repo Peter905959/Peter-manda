@@ -1,0 +1,17 @@
+/* index.css - basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+/* Enable smooth scrolling */
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
